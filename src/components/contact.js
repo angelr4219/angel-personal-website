@@ -10,8 +10,8 @@ export const Contact = () => {
       <p>You can reach me at:</p>
       <ul>
         <li>Email: angel.d.ramirez319@g.ucla.edu </li>
-        <li>LinkedIn: <a href="[your LinkedIn profile]">[Your LinkedIn]</a></li>
-        <li>GitHub: <a href="[your GitHub profile]">[Your GitHub]</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/angel-ramirez-458915253/">My LinkedIn</a></li>
+        <li>GitHub: <a href="https://github.com/angelr4219">My GitHub</a></li>
       </ul>
     </section>
     );

@@ -9,12 +9,12 @@ export const Projects = () => {
       <ul>
         <li>
           <h3>Project 1</h3>
-          <p>Description of project 1. Tools and technologies used: [tech stack].</p>
-          <a href="[link to project or GitHub repo]">View Project</a>
+          <p>Digital Spotify Visualizer. Tools and technologies used: Python .</p>
+          <a href="https://github.com/angelr4219/Digital-Visualizer-spotipy">View Project</a>
         </li>
         <li>
           <h3>Project 2</h3>
-          <p>Description of project 2. Tools and technologies used: [tech stack].</p>
+          <p>Mariachi De Uclatlan. Tools and technologies used: Html, CSS, JavaScript, React, node.js.</p>
           <a href="[link to project or GitHub repo]">View Project</a>
         </li>
         {/* Add more projects as needed */}
