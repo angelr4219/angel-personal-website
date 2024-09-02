@@ -8,30 +8,37 @@ import Projects from './components/Projects.js';
 import Footer from './components/footer.js';
 import Photo from './components/photos.js';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+
 
 
 function App() {
   return (
+    <Router> 
     <div>
       <Header />
       <main>
         <h1>Angel Ramirez</h1>
         <Photo />
-        <h2>Full Stack Developer</h2>
-        
+        <h2>Full Stack Developer & Electrical Engineer</h2>
         <About />
-        <Contact />
-
         <Projects />
-        <Footer />
+        <Contact />
+        <Routes>
+            <Route path="/Pabout" element={<About />} />
+    
+          </Routes>
+        
       </main>
-      
+      <Footer />
 
       
    
 
       
     </div>
+    </Router>
   );
 }
 

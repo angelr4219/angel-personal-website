@@ -1,0 +1,31 @@
+.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: none;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .button.primary {
+    background-color: #007bff; /* Blue background */
+    color: white;
+  }
+  
+  .button.primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .button.secondary {
+    background-color: #6c757d; /* Grey background */
+    color: white;
+  }
+  
+  .button.secondary:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+  }
+  
+  /* Additional styles for other button types if needed */
+  
